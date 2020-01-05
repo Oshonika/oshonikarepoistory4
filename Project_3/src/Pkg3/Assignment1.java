@@ -32,12 +32,12 @@ public int sub(int c,int d)
  }
  public static void main(String[] args)
  {
-	 Assignment1 obj=new Assignment1();
-	 int sum=obj.sum(10,2);
-	 int sub=obj.sub(sum,2);
-	 int sum1=obj.sum(sub,2);
-	 int mul=obj.mul(sum1,2);
-	 obj.div(mul, 2);
+	 Assignment1 s=new Assignment1();
+	 int sum=s.sum(10,2);
+	 int sub=s.sub(sum,2);
+	 int sum1=s.sum(sub,2);
+	 int mul=s.mul(sum1,2);
+	 s.div(mul, 2);
  } 
 	 
 }	 
